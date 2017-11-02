@@ -4,6 +4,7 @@ $number = 789;
 $format = "The %2\$s book contains %1\$d pages.That is a nice %2\$s full of %1\$d pages.<br>";
  
 printf($format,$number,$str);*/
+//魔术方法__set（）  __get()  __isset()  unset()的测试使用。
 header("Content-type:text/html;charset=utf-8");
 class Person{
 	private $name;
